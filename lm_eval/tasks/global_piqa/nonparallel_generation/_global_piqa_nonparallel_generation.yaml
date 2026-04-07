@@ -1,4 +1,4 @@
-group: global_piqa_generation
+group: global_piqa_nonparallel_generation
 task:
   - task: global_piqa_nonparallel_generation_acm_arab
     task_alias: acm_arab

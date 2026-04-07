@@ -30,38 +30,42 @@ task:
     task_alias: ary_arab
   - task: global_piqa_parallel_cloze_arz_arab
     task_alias: arz_arab
-  - task: global_piqa_parallel_cloze_asm_beng
-    task_alias: asm_beng
   - task: global_piqa_parallel_cloze_azj_latn
     task_alias: azj_latn
   - task: global_piqa_parallel_cloze_bam_latn
     task_alias: bam_latn
+  - task: global_piqa_parallel_cloze_bcc_arab
+    task_alias: bcc_arab
   - task: global_piqa_parallel_cloze_bel_cyrl
     task_alias: bel_cyrl
   - task: global_piqa_parallel_cloze_ben_beng
     task_alias: ben_beng
   - task: global_piqa_parallel_cloze_ben_latn
     task_alias: ben_latn
+  - task: global_piqa_parallel_cloze_bgc_deva
+    task_alias: bgc_deva
   - task: global_piqa_parallel_cloze_bho_deva
     task_alias: bho_deva
-  - task: global_piqa_parallel_cloze_bos_latn
-    task_alias: bos_latn
-  - task: global_piqa_parallel_cloze_bsk_arab
-    task_alias: bsk_arab
+  - task: global_piqa_parallel_cloze_bra_deva
+    task_alias: bra_deva
   - task: global_piqa_parallel_cloze_bul_cyrl
     task_alias: bul_cyrl
+  - task: global_piqa_parallel_cloze_bxr_cyrl
+    task_alias: bxr_cyrl
   - task: global_piqa_parallel_cloze_cat_latn
     task_alias: cat_latn
+  - task: global_piqa_parallel_cloze_ceb_latn
+    task_alias: ceb_latn
   - task: global_piqa_parallel_cloze_ces_latn
     task_alias: ces_latn
-  - task: global_piqa_parallel_cloze_ckb_arab
-    task_alias: ckb_arab
   - task: global_piqa_parallel_cloze_ckm_latn
     task_alias: ckm_latn
   - task: global_piqa_parallel_cloze_cmn_hans
     task_alias: cmn_hans
   - task: global_piqa_parallel_cloze_cmn_hant
     task_alias: cmn_hant
+  - task: global_piqa_parallel_cloze_dan_latn
+    task_alias: dan_latn
   - task: global_piqa_parallel_cloze_deu_latn
     task_alias: deu_latn
   - task: global_piqa_parallel_cloze_dhd_deva
@@ -74,6 +78,8 @@ task:
     task_alias: ell_grek
   - task: global_piqa_parallel_cloze_eng_latn
     task_alias: eng_latn
+  - task: global_piqa_parallel_cloze_eus_latn
+    task_alias: eus_latn
   - task: global_piqa_parallel_cloze_fao_latn
     task_alias: fao_latn
   - task: global_piqa_parallel_cloze_fin_latn
@@ -94,6 +100,8 @@ task:
     task_alias: heb_hebr
   - task: global_piqa_parallel_cloze_hin_deva
     task_alias: hin_deva
+  - task: global_piqa_parallel_cloze_hin_latn
+    task_alias: hin_latn
   - task: global_piqa_parallel_cloze_hrv_latn
     task_alias: hrv_latn
   - task: global_piqa_parallel_cloze_hun_latn
@@ -104,6 +112,8 @@ task:
     task_alias: ibo_latn
   - task: global_piqa_parallel_cloze_idu_latn
     task_alias: idu_latn
+  - task: global_piqa_parallel_cloze_ilo_latn
+    task_alias: ilo_latn
   - task: global_piqa_parallel_cloze_ind_latn
     task_alias: ind_latn
   - task: global_piqa_parallel_cloze_isl_latn
@@ -118,10 +128,10 @@ task:
     task_alias: jpn_jpan
   - task: global_piqa_parallel_cloze_kan_knda
     task_alias: kan_knda
+  - task: global_piqa_parallel_cloze_kan_latn
+    task_alias: kan_latn
   - task: global_piqa_parallel_cloze_kat_geor
     task_alias: kat_geor
-  - task: global_piqa_parallel_cloze_kaz_cyrl
-    task_alias: kaz_cyrl
   - task: global_piqa_parallel_cloze_kin_latn
     task_alias: kin_latn
   - task: global_piqa_parallel_cloze_kir_cyrl
@@ -132,8 +142,8 @@ task:
     task_alias: lin_latn
   - task: global_piqa_parallel_cloze_lit_latn
     task_alias: lit_latn
-  - task: global_piqa_parallel_cloze_luo_latn
-    task_alias: luo_latn
+  - task: global_piqa_parallel_cloze_mag_deva
+    task_alias: mag_deva
   - task: global_piqa_parallel_cloze_mal_mlym
     task_alias: mal_mlym
   - task: global_piqa_parallel_cloze_mar_deva
@@ -142,8 +152,6 @@ task:
     task_alias: mkd_cyrl
   - task: global_piqa_parallel_cloze_mni_beng
     task_alias: mni_beng
-  - task: global_piqa_parallel_cloze_mni_mtei
-    task_alias: mni_mtei
   - task: global_piqa_parallel_cloze_nag_latn
     task_alias: nag_latn
   - task: global_piqa_parallel_cloze_nld_latn
@@ -154,6 +162,8 @@ task:
     task_alias: nob_latn
   - task: global_piqa_parallel_cloze_npi_deva
     task_alias: npi_deva
+  - task: global_piqa_parallel_cloze_ory_orya
+    task_alias: ory_orya
   - task: global_piqa_parallel_cloze_pan_guru
     task_alias: pan_guru
   - task: global_piqa_parallel_cloze_pcm_latn
@@ -172,6 +182,8 @@ task:
     task_alias: rus_cyrl
   - task: global_piqa_parallel_cloze_rwr_deva
     task_alias: rwr_deva
+  - task: global_piqa_parallel_cloze_sin_latn
+    task_alias: sin_latn
   - task: global_piqa_parallel_cloze_sin_sinh
     task_alias: sin_sinh
   - task: global_piqa_parallel_cloze_slk_latn
@@ -194,14 +206,24 @@ task:
     task_alias: spa_latn_spai
   - task: global_piqa_parallel_cloze_srp_cyrl
     task_alias: srp_cyrl
+  - task: global_piqa_parallel_cloze_srp_cyrl_torl
+    task_alias: srp_cyrl_torl
   - task: global_piqa_parallel_cloze_srp_latn
     task_alias: srp_latn
+  - task: global_piqa_parallel_cloze_srp_latn_torl
+    task_alias: srp_latn_torl
   - task: global_piqa_parallel_cloze_swe_latn
     task_alias: swe_latn
   - task: global_piqa_parallel_cloze_swh_latn
     task_alias: swh_latn
+  - task: global_piqa_parallel_cloze_swv_deva
+    task_alias: swv_deva
+  - task: global_piqa_parallel_cloze_tam_latn
+    task_alias: tam_latn
   - task: global_piqa_parallel_cloze_tam_taml
     task_alias: tam_taml
+  - task: global_piqa_parallel_cloze_tel_latn
+    task_alias: tel_latn
   - task: global_piqa_parallel_cloze_tel_telu
     task_alias: tel_telu
   - task: global_piqa_parallel_cloze_tgl_latn
@@ -224,6 +246,8 @@ task:
     task_alias: uzn_latn
   - task: global_piqa_parallel_cloze_vie_latn
     task_alias: vie_latn
+  - task: global_piqa_parallel_cloze_xho_latn
+    task_alias: xho_latn
   - task: global_piqa_parallel_cloze_yor_latn
     task_alias: yor_latn
   - task: global_piqa_parallel_cloze_yue_hant

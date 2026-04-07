@@ -1,5 +1,4 @@
 group: global_piqa_generation
-group_alias: global_piqa_generation
 task:
   - global_piqa_parallel_generation
   - global_piqa_nonparallel_generation

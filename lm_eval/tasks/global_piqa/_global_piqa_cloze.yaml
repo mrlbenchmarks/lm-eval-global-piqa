@@ -1,5 +1,4 @@
 group: global_piqa_cloze
-group_alias: global_piqa_cloze
 task:
   - global_piqa_parallel_cloze
   - global_piqa_nonparallel_cloze
