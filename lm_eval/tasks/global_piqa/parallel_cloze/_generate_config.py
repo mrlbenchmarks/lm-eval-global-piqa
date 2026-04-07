@@ -36,7 +36,7 @@ if __name__ == "__main__":
                 f,
             )
 
-    with open(PARENT / "_global_piqa.yaml", "w") as f:
+    with open(PARENT / "_global_piqa_parallel_cloze.yaml", "w") as f:
         yaml.dump(
             {
                 "group": f"{PREFACE}",
