@@ -21,9 +21,13 @@ Homepage: https://mrlbenchmarks.github.io/
 
 ```
 
+You can run global_piqa in two formats: `global_piqa_generation` runs a generation-style evaluation for instruction-tuned and chat models. `global_piqa_cloze` runs log-likelihood or cloze-style evaluation, best for base models or small models.
+
 ### Groups, Tags, and Tasks
 
 #### Groups
+
+You can also run the parallel and non-parallel subsets individually in each format.
 
 * `group_name`: `global_piqa_nonparallel_generation` Generation task using chat format
 * `group_name`: `global_piqa_nonparallel_cloze` Cloze-style completion format
