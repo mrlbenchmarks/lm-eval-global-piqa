@@ -1,7 +1,7 @@
 dataset_path: mrlbenchmarks/global-piqa-parallel
 output_type: generate_until
 test_split: test
-doc_to_text: "Given the following situation, which option is more likely to be correct?\n\nSituation:\n{{prompt}} ...\n\nOption A: {{solution0}}\n\nOption B: {{solution1}}\n\nOption C: {{solution2}}\n\nOption D: {{solution3}}\n\nYour response should end with \"The best answer is: [answer_letter]\" where [answer_letter] is one of A, B, C, or D."
+doc_to_text: "{{prompt}}\n\nOption A: {{solution0}}\n\nOption B: {{solution1}}\n\nOption C: {{solution2}}\n\nOption D: {{solution3}}\n\nYour response should end with \"The best answer is: [answer_letter]\" where [answer_letter] is one of A, B, C, or D."
 doc_to_target: "{{['A', 'B', 'C', 'D'][label]}}"
 generation_kwargs:
   do_sample: true
