@@ -29,7 +29,7 @@ You can also run individual languages:
 
 <summary>Languages available</summary>
 
-**Nonparallel**
+**Nonparallel (136)**
 
     - acm_arab
     - acq_arab
@@ -148,7 +148,7 @@ You can also run individual languages:
     - zsm_latn
     - zul_latn
 
-**Parallel**
+**Parallel (131)**
 
     - acm_arab
     - acq_arab
