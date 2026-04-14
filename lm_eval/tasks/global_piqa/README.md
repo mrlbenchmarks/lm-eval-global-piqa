@@ -18,7 +18,6 @@ Homepage: https://mrlbenchmarks.github.io/
   year={2025},
   url={https://arxiv.org/abs/2510.24081},
 }
-
 ```
 
 You can run global_piqa in two formats: `global_piqa_generation` runs a generation-style evaluation for instruction-tuned and chat models. `global_piqa_cloze` runs log-likelihood or cloze-style evaluation, best for base models or small models.

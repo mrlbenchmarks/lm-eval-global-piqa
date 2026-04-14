@@ -60,6 +60,8 @@ task:
     task_alias: ces_latn
   - task: global_piqa_parallel_cloze_ckm_latn
     task_alias: ckm_latn
+  - task: global_piqa_parallel_cloze_cls_deva
+    task_alias: cls_deva
   - task: global_piqa_parallel_cloze_cmn_hans
     task_alias: cmn_hans
   - task: global_piqa_parallel_cloze_cmn_hant
@@ -170,6 +172,8 @@ task:
     task_alias: pcm_latn
   - task: global_piqa_parallel_cloze_pes_arab
     task_alias: pes_arab
+  - task: global_piqa_parallel_cloze_plt_latn
+    task_alias: plt_latn
   - task: global_piqa_parallel_cloze_pol_latn
     task_alias: pol_latn
   - task: global_piqa_parallel_cloze_por_latn_braz
@@ -194,6 +198,8 @@ task:
     task_alias: slv_latn
   - task: global_piqa_parallel_cloze_slv_latn_cerk
     task_alias: slv_latn_cerk
+  - task: global_piqa_parallel_cloze_slv_latn_prle
+    task_alias: slv_latn_prle
   - task: global_piqa_parallel_cloze_snd_arab
     task_alias: snd_arab
   - task: global_piqa_parallel_cloze_snd_deva

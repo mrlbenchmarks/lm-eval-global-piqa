@@ -36,18 +36,26 @@ task:
     task_alias: azj_latn
   - task: global_piqa_nonparallel_generation_bam_latn
     task_alias: bam_latn
+  - task: global_piqa_nonparallel_generation_bcc_arab
+    task_alias: bcc_arab
   - task: global_piqa_nonparallel_generation_bel_cyrl
     task_alias: bel_cyrl
   - task: global_piqa_nonparallel_generation_ben_beng
     task_alias: ben_beng
   - task: global_piqa_nonparallel_generation_ben_latn
     task_alias: ben_latn
+  - task: global_piqa_nonparallel_generation_bgc_deva
+    task_alias: bgc_deva
   - task: global_piqa_nonparallel_generation_bho_deva
     task_alias: bho_deva
   - task: global_piqa_nonparallel_generation_bos_latn
     task_alias: bos_latn
+  - task: global_piqa_nonparallel_generation_bra_deva
+    task_alias: bra_deva
   - task: global_piqa_nonparallel_generation_bsk_arab
     task_alias: bsk_arab
+  - task: global_piqa_nonparallel_generation_btx_latn
+    task_alias: btx_latn
   - task: global_piqa_nonparallel_generation_bul_cyrl
     task_alias: bul_cyrl
   - task: global_piqa_nonparallel_generation_cat_latn
@@ -58,14 +66,20 @@ task:
     task_alias: ckb_arab
   - task: global_piqa_nonparallel_generation_ckm_latn
     task_alias: ckm_latn
+  - task: global_piqa_nonparallel_generation_cls_deva
+    task_alias: cls_deva
   - task: global_piqa_nonparallel_generation_cmn_hans
     task_alias: cmn_hans
   - task: global_piqa_nonparallel_generation_cmn_hant
     task_alias: cmn_hant
+  - task: global_piqa_nonparallel_generation_dan_latn
+    task_alias: dan_latn
   - task: global_piqa_nonparallel_generation_deu_latn
     task_alias: deu_latn
   - task: global_piqa_nonparallel_generation_dhd_deva
     task_alias: dhd_deva
+  - task: global_piqa_nonparallel_generation_dje_latn
+    task_alias: dje_latn
   - task: global_piqa_nonparallel_generation_ekk_latn
     task_alias: ekk_latn
   - task: global_piqa_nonparallel_generation_ekp_latn
@@ -74,6 +88,8 @@ task:
     task_alias: ell_grek
   - task: global_piqa_nonparallel_generation_eng_latn
     task_alias: eng_latn
+  - task: global_piqa_nonparallel_generation_eus_latn
+    task_alias: eus_latn
   - task: global_piqa_nonparallel_generation_fao_latn
     task_alias: fao_latn
   - task: global_piqa_nonparallel_generation_fin_latn
@@ -94,6 +110,8 @@ task:
     task_alias: heb_hebr
   - task: global_piqa_nonparallel_generation_hin_deva
     task_alias: hin_deva
+  - task: global_piqa_nonparallel_generation_hin_latn
+    task_alias: hin_latn
   - task: global_piqa_nonparallel_generation_hrv_latn
     task_alias: hrv_latn
   - task: global_piqa_nonparallel_generation_hun_latn
@@ -118,6 +136,8 @@ task:
     task_alias: jpn_jpan
   - task: global_piqa_nonparallel_generation_kan_knda
     task_alias: kan_knda
+  - task: global_piqa_nonparallel_generation_kan_latn
+    task_alias: kan_latn
   - task: global_piqa_nonparallel_generation_kat_geor
     task_alias: kat_geor
   - task: global_piqa_nonparallel_generation_kaz_cyrl
@@ -154,12 +174,16 @@ task:
     task_alias: nob_latn
   - task: global_piqa_nonparallel_generation_npi_deva
     task_alias: npi_deva
+  - task: global_piqa_nonparallel_generation_ory_orya
+    task_alias: ory_orya
   - task: global_piqa_nonparallel_generation_pan_guru
     task_alias: pan_guru
   - task: global_piqa_nonparallel_generation_pcm_latn
     task_alias: pcm_latn
   - task: global_piqa_nonparallel_generation_pes_arab
     task_alias: pes_arab
+  - task: global_piqa_nonparallel_generation_plt_latn
+    task_alias: plt_latn
   - task: global_piqa_nonparallel_generation_pol_latn
     task_alias: pol_latn
   - task: global_piqa_nonparallel_generation_por_latn_braz
@@ -172,6 +196,8 @@ task:
     task_alias: rus_cyrl
   - task: global_piqa_nonparallel_generation_rwr_deva
     task_alias: rwr_deva
+  - task: global_piqa_nonparallel_generation_sin_latn
+    task_alias: sin_latn
   - task: global_piqa_nonparallel_generation_sin_sinh
     task_alias: sin_sinh
   - task: global_piqa_nonparallel_generation_slk_latn
@@ -182,6 +208,8 @@ task:
     task_alias: slv_latn
   - task: global_piqa_nonparallel_generation_slv_latn_cerk
     task_alias: slv_latn_cerk
+  - task: global_piqa_nonparallel_generation_slv_latn_prle
+    task_alias: slv_latn_prle
   - task: global_piqa_nonparallel_generation_snd_arab
     task_alias: snd_arab
   - task: global_piqa_nonparallel_generation_snd_deva
@@ -194,14 +222,26 @@ task:
     task_alias: spa_latn_spai
   - task: global_piqa_nonparallel_generation_srp_cyrl
     task_alias: srp_cyrl
+  - task: global_piqa_nonparallel_generation_srp_cyrl_torl
+    task_alias: srp_cyrl_torl
   - task: global_piqa_nonparallel_generation_srp_latn
     task_alias: srp_latn
+  - task: global_piqa_nonparallel_generation_srp_latn_torl
+    task_alias: srp_latn_torl
+  - task: global_piqa_nonparallel_generation_sun_latn
+    task_alias: sun_latn
   - task: global_piqa_nonparallel_generation_swe_latn
     task_alias: swe_latn
   - task: global_piqa_nonparallel_generation_swh_latn
     task_alias: swh_latn
+  - task: global_piqa_nonparallel_generation_swv_deva
+    task_alias: swv_deva
+  - task: global_piqa_nonparallel_generation_tam_latn
+    task_alias: tam_latn
   - task: global_piqa_nonparallel_generation_tam_taml
     task_alias: tam_taml
+  - task: global_piqa_nonparallel_generation_tel_latn
+    task_alias: tel_latn
   - task: global_piqa_nonparallel_generation_tel_telu
     task_alias: tel_telu
   - task: global_piqa_nonparallel_generation_tgl_latn
